@@ -1,6 +1,10 @@
+import { useContext } from "react";
 import { FormInputRow } from "../Components/FormInputRow";
+import { authContext } from '../Contexts/Auth'
 
 export function Login() {
+    const authValue = useContext(authContext);
+    console.log(authValue.login)
     return (
         <div className="h-screen bg-slate-700 flex justify-center items-center">
             <form className="bg-white w-3/5 flex flex-col p-5 rounded-md shadow-lg md:max-w-md">
