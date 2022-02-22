@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
     <React.StrictMode>
-      <Router basename='/scp-app'>
+      <Router basename={process.env.PUBLIC_URL}>
         <App />
       </Router>
     </React.StrictMode>,
