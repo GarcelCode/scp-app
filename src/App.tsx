@@ -9,9 +9,9 @@ function App (){
         <AuthProvider>
             <div className="h-screen bg-slate-700 flex justify-center items-center">
             <Routes>
-                <Route path="/scp-app" element={<Home />}/>
-                <Route path="/scp-app/login" element={<Login/>}/>
-                <Route path="/scp-app/register" element={<Register/>}/>
+                <Route path="/" element={<Home />}/>
+                <Route path="/login" element={<Login/>}/>
+                <Route path="/register" element={<Register/>}/>
             </Routes>
             </div>
         </AuthProvider>  
