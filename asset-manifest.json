@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/scp-app/static/css/main.44878296.css",
-    "main.js": "/scp-app/static/js/main.9f1b309b.js",
+    "main.js": "/scp-app/static/js/main.d64abd6b.js",
     "static/js/787.e601a260.chunk.js": "/scp-app/static/js/787.e601a260.chunk.js",
     "index.html": "/scp-app/index.html",
     "main.44878296.css.map": "/scp-app/static/css/main.44878296.css.map",
-    "main.9f1b309b.js.map": "/scp-app/static/js/main.9f1b309b.js.map",
+    "main.d64abd6b.js.map": "/scp-app/static/js/main.d64abd6b.js.map",
     "787.e601a260.chunk.js.map": "/scp-app/static/js/787.e601a260.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44878296.css",
-    "static/js/main.9f1b309b.js"
+    "static/js/main.d64abd6b.js"
   ]
 }
