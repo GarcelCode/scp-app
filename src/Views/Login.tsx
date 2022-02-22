@@ -6,7 +6,6 @@ import { authContext } from '../Contexts/Auth'
 
 export function Login() {
     const authValue = useContext(authContext);
-    console.log(authValue.login)
 
     return (
             <Form>
